@@ -11,19 +11,18 @@ import logoTuple from '@/images/logos/tuple.svg'
 
 export function Hero() {
   return (
-    <div className=" bg-[url('https://i.imgur.com/mNJwpee.jpg')]">
+    <div className=" bg-cover bg-center  bg-[url('https://iktanstrategies.com/wp-content/uploads/2020/12/Atardecer-plataforma.jpg')]">
+   
       <Container className="pt-20 pb-16 text-center lg:pt-32">
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-7xl">
-          RIG SERVICE &{' '}
+          IKTAN{' '}
           <div className="relative -skew-y-3 transform bg-gradient-to-tl from-[#e0a300] to-[#c6420c] transition delay-150 duration-700 ease-in-out hover:-translate-y-1  hover:scale-110 md:mx-44">
-            <span className="relative text-orange-100">ENGINEERING</span>
+            <span className="relative text-orange-100">Strategies</span>
           </div>{' '}
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-50">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor
-          pharetra sem, ac venenatis nibh porta a. Donec vel elementum enim,
-          vitae fermentum mi. Curabitur eget tortor quis nunc eleifend mattis
-          vitae eu ipsum.
+        TERCERO AUTORIZADO PARA EXPLORACIÓN Y EXTRACCIÓN DE HIDROCARBUROS. 
+         ()
         </p>
         <div className="mt-10 flex justify-center gap-x-6">
           <button
@@ -74,6 +73,6 @@ export function Hero() {
           </ul>
         </div>
       </Container>
-    </div>
+    //</div>
   )
 }
