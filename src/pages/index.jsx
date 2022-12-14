@@ -8,6 +8,8 @@ import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
 import Validador from './validador'
+import HeroDuo from '@/components/HeroDuo'
+import Contentsections from '@/components/Contentsections'
 
 export default function Home() {
   return (
@@ -21,9 +23,9 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <Hero />
+        <HeroDuo />
         <PrimaryFeatures />
-        <SecondaryFeatures />
+        <Contentsections/>
         {/* <CallToAction /> */}
         {/* <Testimonials /> */}
         {/* <Pricing /> */}

@@ -12,31 +12,37 @@ import screenshotG from '@/images/screenshots/G.jpg';
 
 const features = [
   {
-    title: 'Generadores',
+    title: 'Seguros',
     description:
       'Fabricados para obtener un rendimiento óptimo. Sus componentes principales se prueban individualmente.',
     image: screenshotA,
   },
   {
-    title: 'Llaves hidráulicas',
+    title: 'PPCIEM',
     description:
       'Las llaves dinamométricas hidráulicas se utilizan ampliamente en la construcción, el mantenimiento, entre otros. ',
     image: screenshotB,
   },
   {
-    title: 'Válvulas de seguridad',
+    title: 'Dictaminación de Pozos',
     description:
       'Las válvulas de seguridad de alivio de presión están diseñadas para abrir y aliviar un aumento de la presión interna del fluido.',
     image: screenshotC,
   },
   {
-    title: 'Maquinas de torque',
+    title: 'Gestión Regulatoria',
     description:
       'Herramienta que se utiliza para aplicar un torque determinado a determinadas piezas, como ser tornillos, tuercas, etc.',
     image: screenshotD,
   },
   {
-    title: 'Maquinaria',
+    title: 'Capacitación',
+    description:
+      'Herramienta que se utiliza para aplicar un torque determinado a determinadas piezas, como ser tornillos, tuercas, etc.',
+    image: screenshotG,
+  },
+  {
+    title: 'Auditorías',
     description:
       'Herramienta que se utiliza para aplicar un torque determinado a determinadas piezas, como ser tornillos, tuercas, etc.',
     image: screenshotG,
@@ -65,7 +71,7 @@ export function PrimaryFeatures() {
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative overflow-hidden bg-gradient-to-r from-[#e0a300] to-[#c6420c] pt-20 pb-28 sm:py-32"
+      className="relative overflow-hidden bg-gradient-to-r from-[#E65164] to-[#DD102A] pt-20 pb-28 sm:py-32"
     >
       <Image
         className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
@@ -77,11 +83,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="relative transform font-display text-3xl font-extrabold tracking-tight text-white sm:text-4xl md:text-5xl">
-            EQUIPOS Y HERRAMIENTAS ESPECIALES.
+          NUESTROS SERVICIOS
           </h2>
           <p className="transformmt-6 relative text-lg tracking-tight text-orange-100">
-            Enfocados en mejorar la integridad de los activos con el uso de
-            equipos modernos y técnicas de inspección comprobadas
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque odit adipisci incidunt deserunt nemo rerum harum veritatis molestiae veniam possimus, cumque perspiciatis sint doloremque molestias minus tempore, delectus dicta inventore!
           </p>
         </div>
         <Tab.Group

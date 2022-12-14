@@ -110,7 +110,7 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Popover className="relative bg-slate-900">
+    <Popover className="relative bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex items-center justify-between py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -118,20 +118,20 @@ export default function Header() {
               <span className="sr-only">Your Company</span>
               <img
                 className="h-8 w-auto sm:h-14"
-                src="https://imgur.com/NJHUpaQ.png"
+                src="https://iktanstrategies.com/wp-content/uploads/2021/08/LOGO-IKTAN-STRATEGIES-alta-calidad-344x107.png"
                 alt=""
               />
             </a>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
-            <Popover.Button className="inline-flex items-center justify-center rounded-md bg-slate-900 p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500">
+            <Popover.Button className="inline-flex items-center justify-center rounded-md  bg-slate-900 p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500">
               <span className="sr-only">Open menu</span>
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
           </div>
           <a
             href="#"
-            className="text-base font-bold text-gray-100 hover:text-gray-900"
+            className="text-base font-bold text-black  pl-2 pr-2 hover:text-gray-900"
           >
             INICIO
           </a>
@@ -141,14 +141,14 @@ export default function Header() {
                 <>
                   <Popover.Button
                     className={classNames(
-                      open ? 'text-orange-400' : 'text-gray-100',
-                      'group inline-flex items-center rounded-md bg-slate-900 text-base font-bold hover:text-orange-300 focus:outline-none'
+                      open ? 'text-orange-400' : 'text-black',
+                      'group inline-flex items-center  text-base font-bold hover:text-orange-300 focus:outline-none'
                     )}
                   >
                     <span>SOMOS</span>
                     <ChevronDownIcon
                       className={classNames(
-                        open ? 'text-orange-400' : 'text-gray-100',
+                        open ? 'text-orange-400' : 'text-black',
                         'ml-2 h-5 w-5 group-hover:text-gray-500'
                       )}
                       aria-hidden="true"
@@ -200,14 +200,14 @@ export default function Header() {
                 <>
                   <Popover.Button
                     className={classNames(
-                      open ? 'text-orange-400' : 'text-gray-100',
-                      'group inline-flex items-center rounded-md bg-slate-900 text-base font-bold hover:text-orange-300 focus:outline-none'
+                      open ? 'text-orange-400' : 'text-black',
+                      'group inline-flex items-center  text-base font-bold hover:text-orange-300 focus:outline-none'
                     )}
                   >
                     <span>¿QUÉ OFRECEMOS?</span>
                     <ChevronDownIcon
                       className={classNames(
-                        open ? 'text-orange-400' : 'text-gray-100',
+                        open ? 'text-orange-400' : 'text-black',
                         'ml-2 h-5 w-5 group-hover:text-gray-500'
                       )}
                       aria-hidden="true"
@@ -275,14 +275,14 @@ export default function Header() {
                 <>
                   <Popover.Button
                     className={classNames(
-                      open ? 'text-orange-400' : 'text-gray-100',
-                      'group inline-flex items-center rounded-md bg-slate-900 text-base font-bold hover:text-orange-300 focus:outline-none '
+                      open ? 'text-orange-400' : 'text-black',
+                      'group inline-flex items-center  text-base font-bold hover:text-orange-300 focus:outline-none '
                     )}
                   >
                     <span>¿QUÉ HACEMOS?</span>
                     <ChevronDownIcon
                       className={classNames(
-                        open ? 'text-orange-400' : 'text-gray-100',
+                        open ? 'text-orange-400' : 'text-black',
                         'ml-2 h-5 w-5 group-hover:text-gray-500'
                       )}
                       aria-hidden="true"
@@ -364,7 +364,7 @@ export default function Header() {
           <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
             <a
               href="#"
-              className="whitespace-nowrap text-base font-bold text-gray-100 hover:text-gray-900"
+              className="whitespace-nowrap text-base font-bold text-black  hover:text-gray-900"
             >
               INICIA SESIÓN
             </a>
