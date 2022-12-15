@@ -1,20 +1,17 @@
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-
 export default function Contentsections() {
     return (
   
-        <div className="relative bg-[#eff0f2]">
-        <div className="lg:absolute lg:inset-0">
-          <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2"></div>
+        <div className="relative bg-[#eff0f2] mb-0">
+        <div className="lg:absolute lg:inset-0 ">
+          <div className="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2 "></div>
         </div>
-        <div className="relative px-4 pt-12 pb-16 sm:px-6 sm:pt-16 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8 mb-28">
+        <div className="relative px-4 pt-12 lg:pt-36 lg:pb-36 pb-16 sm:px-6 sm:pt-16 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:px-8 ">
   
           <div>                     {/* Este div ncierra todo*/}
             <div className="">                   {/* div1 */}
               <div className="absolute ">
                 <div className=" bg-gradient-to-tl from-transparent to-[#A0581F]  ">
-                <h1 className=' lg:mt-44 lg:pl-10 lg:pr-8 lg:pt-4 lg:pb-4 text-white  text-2xl font-bold font-display  '>CURSO RMA</h1>
+                <h1 className=' lg:mt-44 lg:pl-10 lg:pr-8 lg:pt-4 lg:pb-4 mt-28 pl-3 pr-3 text-white  text-2xl font-bold font-display  '>CURSO RMA</h1>
                 </div>
               </div>
               <div className="h-30 w-full ">
@@ -90,7 +87,7 @@ export default function Contentsections() {
           <div className="lg:col-start-2 lg:pl-8">
             <div className="bg-[#F9FAFB] lg:pr-5 lg:pt-5 lg:pb-16 rounded-3xl">
             <div className="mx-auto max-w-prose text-base lg:ml-auto lg:mr-0 lg:max-w-lg">
-              <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl font-display">
+              <h3 className="  mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl font-display">
                 Autorización para Recolección y Transporte de Residuos de
                 Manejo Especial
               </h3>

@@ -46,7 +46,7 @@ export default function Footer() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()} Riser. Todos los derechos reservados.
+            Copyright &copy; {new Date().getFullYear()} IKTAN STRATEGIES. Todos los derechos reservados.
           </p>
         </div>
       </Container>
