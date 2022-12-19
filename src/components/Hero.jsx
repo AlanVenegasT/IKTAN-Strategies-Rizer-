@@ -11,32 +11,26 @@ import logoTuple from '@/images/logos/tuple.svg'
 
 export function Hero() {
   return (
-    <div className=" bg-cover bg-center  bg-[url('https://iktanstrategies.com/wp-content/uploads/2020/12/Atardecer-plataforma.jpg')]">
+    <div className=" bg-cover bg-center   bg-[url('https://iktanstrategies.com/wp-content/uploads/2020/12/Atardecer-plataforma.jpg')]  ">
    
       <Container className="pt-20 pb-16 text-center lg:pt-32">
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-extrabold tracking-tight text-orange-100 sm:text-7xl">
-          IKTAN{' '}
+          {' '}
           <div className="relative -skew-y-3 transform bg-gradient-to-tl from-[#E65164] to-[#DD102A] transition delay-150 duration-700 ease-in-out hover:-translate-y-1  hover:scale-110 md:mx-44">
-            <span className="relative text-orange-100">STRATEGIES</span>
+            <span className="relative text-orange-100 text-5xl ">¿QUIENES SOMOS?</span>
           </div>{' '}
         </h1>
-        <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-50">
-        TERCERO AUTORIZADO PARA EXPLORACIÓN Y EXTRACCIÓN DE HIDROCARBUROS. 
-        (TA-D-A02/06-16/2021)
-        </p>
+        
         <div className="mt-10 flex justify-center gap-x-6">
           <button
             type="button"
-            class="mr-2 mb-2 animate-bounce rounded-full bg-[#DD102A] px-5 py-2.5 text-center text-sm font-extrabold text-white shadow-xl transition duration-700 hover:bg-slate-800 focus:outline-none focus:ring-4"
+            class="mr-2 mb-2 animate-bounce rounded-full bg-orange-100 px-5 py-2.5 text-center text-sm font-extrabold text-[#DD102A] shadow-xl transition duration-700 hover:bg-red-800 focus:outline-none focus:ring-4"
           >
             CONTACTANOS
           </button>
         </div>
         <div className="mt-36 lg:mt-44">
-          <p className="font-display text-base text-orange-100">
-            Contamos con la confianza de reconocidas empresas que avalan la
-            calidad de nuestro servicio.
-          </p>
+          
           <ul
             role="list"
             className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
@@ -74,5 +68,10 @@ export function Hero() {
         </div>
       </Container>
     //</div>
+
+      
+
+
+
   )
 }

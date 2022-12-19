@@ -3,8 +3,8 @@ import Head from 'next/head'
 import { Faqs } from '@/components/Faqs'
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import { Hero } from '@/components/Hero'
-import { PrimaryFeatures } from '@/components/PrimaryFeatures'
+
+
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
 import Validador from './validador'
@@ -27,7 +27,8 @@ export default function Home() {
       <Header />
       <main>
         <HeroDuo />
-        <PrimaryFeatures />
+        <SecondaryFeatures />
+        
         <Contentsections/>
         <Objetivos/>
         {/* <CallToAction /> */}

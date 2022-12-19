@@ -2,20 +2,20 @@ import Head from 'next/head'
 
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-
-import Hero2 from '@/components/Hero2'
-import Imgfaqs from '@/components/Imgfaqs'
-
+import { Hero } from '@/components/Hero'
+import Misiob from "@/components/misiob"
 
 
-export default function Validador() {
+
+export default function somos() {
   return (
 
     <>
       <Header/>
       <main>
-      <Hero2/>
-      <Imgfaqs/>
+      <Hero/>
+      <Misiob/>
+
       </main>
       <Footer />
     </>

@@ -87,7 +87,7 @@ export default function Contentsections() {
           <div className="lg:col-start-2 lg:pl-8">
             <div className="bg-[#F9FAFB] lg:pr-5 lg:pt-5 lg:pb-16 rounded-3xl">
             <div className="mx-auto max-w-prose text-base lg:ml-auto lg:mr-0 lg:max-w-lg">
-              <h3 className="  mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl font-display">
+              <h3 className="  mt-2 text-3xl font-bold leading-8 tracking-tight text-[#DD102A] sm:text-4xl font-display">
                 Autorización para Recolección y Transporte de Residuos de
                 Manejo Especial
               </h3>

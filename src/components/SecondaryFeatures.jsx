@@ -8,10 +8,11 @@ import screenshotE from '@/images/screenshots/E.jpg'
 import screenshotF from '@/images/screenshots/F.jpg'
 import screenshotG from '@/images/screenshots/G.jpg'
 
+
 const features = [
   {
-    name: 'Dinamometro',
-    summary: 'Sistema de pruebas.',
+    name: 'Seguros',
+    //summary: 'Seguros',
     description: 
       'El único sistema de pruebas de esfuerzos para sistemas Top Drive en América Latina, para cualquier marca, capacidad, hidráulicos o eléctricos',
     image: screenshotE,
@@ -44,9 +45,8 @@ const features = [
     },
   },
   {
-    name: 'Suministros de refacciones',
-    summary:
-      'Catalogo refacciones de partes críticas.',
+    name: 'PPCIEM',
+   // summary: 'Capacitacion',
     description:
       'Para garantizar la permanencia de la eficiencia de sus equipos, tenemos la capacidad de conseguir piezas o refacciones de partes críticas.',
     image: screenshotF,
@@ -72,9 +72,9 @@ const features = [
     },
   },
   {
-    name: 'Capacitaciones',
-    summary:
-      'Capacitación...',
+    name: 'Dictaminación de Pozos',
+    //summary:
+    // 'Capacitación...',
     description:
       ' Capacitación para mantenimiento y operación de componentes críticos.',
     image: screenshotG,
@@ -94,6 +94,90 @@ const features = [
       )
     },
   },
+  {
+    name: 'Gestion Regulatoria',
+    //summary:
+      //'Catalogo refacciones de partes críticas.',
+    description:
+      'Para garantizar la permanencia de la eficiencia de sus equipos, tenemos la capacidad de conseguir piezas o refacciones de partes críticas.',
+    image: screenshotE,
+    icon: function InventoryIcon() {
+      return (
+        <>
+          <path
+            opacity=".5"
+            d="M8 17a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+          <path
+            opacity=".3"
+            d="M8 24a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+          <path
+            d="M8 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+        </>
+      )
+    },
+  },
+  {
+    name: 'Capacitación',
+    //summary:
+      //'Catalogo refacciones de partes críticas.',
+    description:
+      'Para garantizar la permanencia de la eficiencia de sus equipos, tenemos la capacidad de conseguir piezas o refacciones de partes críticas.',
+    image: screenshotE,
+    icon: function InventoryIcon() {
+      return (
+        <>
+          <path
+            opacity=".5"
+            d="M8 17a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+          <path
+            opacity=".3"
+            d="M8 24a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+          <path
+            d="M8 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+        </>
+      )
+    },
+  },
+  {
+    name: 'Auditorías',
+    //summary:
+      //'Catalogo refacciones de partes críticas.',
+    description:
+      'Para garantizar la permanencia de la eficiencia de sus equipos, tenemos la capacidad de conseguir piezas o refacciones de partes críticas.',
+    image: screenshotE,
+    icon: function InventoryIcon() {
+      return (
+        <>
+          <path
+            opacity=".5"
+            d="M8 17a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+          <path
+            opacity=".3"
+            d="M8 24a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+          <path
+            d="M8 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+        </>
+      )
+    },
+  },
 ]
 
 function Feature({ feature, isActive, className, ...props }) {
@@ -105,7 +189,7 @@ function Feature({ feature, isActive, className, ...props }) {
       <div
         className={clsx(
           'w-9 rounded-lg',
-          isActive ? 'bg-[#e0a300] ' : 'bg-slate-500'
+          isActive ? 'bg-[#DD102A] ' : 'bg-slate-500'
         )}
       >
         <svg aria-hidden="true" className="h-9 w-9" fill="none">
@@ -115,7 +199,7 @@ function Feature({ feature, isActive, className, ...props }) {
       <h3
         className={clsx(
           'mt-6 text-sm font-medium ',
-          isActive ? 'text-[#e0a300]' : 'text-slate-600'
+          isActive ? 'text-[#DD102A]' : 'text-slate-600'
         )}
       >
         {feature.name}
@@ -218,7 +302,7 @@ export function SecondaryFeatures() {
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl uppercase font-extrabold md:text-5xl">
             Servicios
           </h2>
-          <p className="transformmt-6 relative text-lg tracking-tight text-[#e0a300]">
+          <p className="transformmt-6 relative text-lg tracking-tight text-[#DD102A]">
             Conoce un poco acerca de los distintos servicios que ofrecemos.
           </p>
         </div>

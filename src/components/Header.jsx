@@ -145,7 +145,7 @@ export default function Header() {
                       'group inline-flex items-center  text-base font-bold hover:text-orange-300 focus:outline-none'
                     )}
                   >
-                    <span>SOMOS</span>
+                    <span>GESTION REGULATORIA</span>
                     <ChevronDownIcon
                       className={classNames(
                         open ? 'text-orange-400' : 'text-black',
@@ -204,7 +204,7 @@ export default function Header() {
                       'group inline-flex items-center  text-base font-bold hover:text-orange-300 focus:outline-none'
                     )}
                   >
-                    <span>¿QUÉ OFRECEMOS?</span>
+                    <span>¿QUIENES SOMOS?</span>
                     <ChevronDownIcon
                       className={classNames(
                         open ? 'text-orange-400' : 'text-black',
@@ -279,7 +279,7 @@ export default function Header() {
                       'group inline-flex items-center  text-base font-bold hover:text-orange-300 focus:outline-none '
                     )}
                   >
-                    <span>¿QUÉ HACEMOS?</span>
+                    <span>CONTACTO</span>
                     <ChevronDownIcon
                       className={classNames(
                         open ? 'text-orange-400' : 'text-black',

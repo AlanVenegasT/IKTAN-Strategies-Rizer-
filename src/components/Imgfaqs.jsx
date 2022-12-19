@@ -1,111 +1,396 @@
 import React from 'react'
-import { Disclosure } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/24/outline'
-
-import { CameraIcon } from '@heroicons/react/20/solid'
-
-
+import { InboxIcon, SparklesIcon } from '@heroicons/react/24/outline'
 
 
 export default function Imgfaqs() {
-  return (
-    <div>
-            <div className="overflow-hidden bg-white">
-      <div className="relative mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-        <div className="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block" />
-        <div className="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
-          <div>
-            <h2 className="text-lg font-semibold text-indigo-600">Case Study</h2>
-            <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">Meet Whitney</h3>
-          </div>
-        </div>
-        <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
-          <div className="relative lg:col-start-2 lg:row-start-1">
-            <svg
-              className="absolute top-0 right-0 -mt-20 -mr-20 hidden lg:block"
-              width={404}
-              height={384}
-              fill="none"
-              viewBox="0 0 404 384"
-              aria-hidden="true"
-            >
-              <defs>
-                <pattern
-                  id="de316486-4a29-4312-bdfc-fbce2132a2c1"
-                  x={0}
-                  y={0}
-                  width={20}
-                  height={20}
-                  patternUnits="userSpaceOnUse"
-                >
-                  <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
-                </pattern>
-              </defs>
-              <rect width={404} height={384} fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)" />
-            </svg>
-            <div className="relative mx-auto max-w-prose text-base lg:max-w-none">
-              <figure>
-                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <img
-                    className="rounded-lg object-cover object-center shadow-lg"
-                    src="https://images.unsplash.com/photo-1546913199-55e06682967e?ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80"
-                    alt="Whitney leaning against a railing on a downtown street"
-                    width={1184}
-                    height={1376}
-                  />
-                </div>
-                <figcaption className="mt-3 flex text-sm text-gray-500">
-                  <CameraIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-                  <span className="ml-2">Photograph by Marcus O’Leary</span>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-          <div className="mt-8 lg:mt-0">
-            <div className="mx-auto max-w-prose text-base lg:max-w-none">
-              <p className="text-lg text-gray-500">
-                Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                pellentesque. Blandit amet, sed aenean erat arcu morbi.
-              </p>
-            </div>
-            <div className="prose prose-indigo mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
-              <p>
-                Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
-                pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
-              </p>
-              <p>
-                Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet
-                fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.
-              </p>
-              <p>
-                Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.
-              </p>
-              <ul role="list">
-                <li>Quis elit egestas venenatis mattis dignissim.</li>
-                <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-                <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-              </ul>
-              <p>
-                Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet
-                velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus
-                egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
-              </p>
-              <h3>How we helped</h3>
-              <p>
-                Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam.
-                Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa,
-                lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.
-              </p>
-              <p>
-                Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                pellentesque. Blandit amet, sed aenean erat arcu morbi.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    return (
+        <div className="relative overflow-hidden  pt-16 pb-32">
+            
+          
 
-    </div>
-  )
+            <div className="relative">
+                <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+                    <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+                        <div>
+                            <div>
+                            </div>
+                            <div className="mt-6">
+                                <h2 className="text-3xl font-bold tracking-tight text-[#DD102A]">Gestiones ante la ASEA:</h2>
+                            </div>
+                        </div>
+                        <div className="mt-4 border-t border-gray-200 pt-6">
+                            <blockquote>
+                                <div>
+                                    <div className="space-y-4">
+                                    
+                                    <details
+                                            className="group border-l-4 border-red-500 bg-gray-50 p-3 [&_summary::-webkit-details-marker]:hidden"
+                                            open
+                                        >
+                                            <summary className="flex items-center justify-between cursor-pointer">
+                                                <h2 className="text-sm font-medium text-black">
+                                                Exploración y Extracción
+                                                </h2>
+
+                                                <span
+                                                    className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-red-500 sm:p-3"
+                                                >
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        class="flex-shrink-0 w-5 h-5 transition duration-300 group-open:-rotate-45"
+                                                        viewBox="0 0 20 20"
+                                                        fill="currentColor"
+                                                    >
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                                                            clip-rule="evenodd"
+                                                        />
+                                                    </svg>
+                                                </span>
+                                            </summary>
+
+                                            <ul className='mt-4 leading-relaxed text-gray-700 list-disc text-xs list-inside '>
+                                                <li>Dictámenes Técnicos de Ingeniería</li>
+                                                <li>Dictamenes Técnicos de ARP</li>
+                                                <li>Justificaciones Técnicas Normativas</li>
+                                                <li>Reportes de Cumplimiento</li>
+                                                <li>Presentación de Avisos</li>
+                                            </ul>
+                                        </details>
+
+                                        <details
+                                            className="group border-l-4 border-red-500 bg-gray-50 p-3 [&_summary::-webkit-details-marker]:hidden"
+                                            open
+                                        >
+                                            <summary className="flex items-center justify-between cursor-pointer">
+                                                <h2 className="text-sm font-medium text-black">
+                                                Sistemas de Administración
+                                                </h2>
+
+                                                <span
+                                                    className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-red-500 sm:p-3"
+                                                >
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        class="flex-shrink-0 w-5 h-5 transition duration-300 group-open:-rotate-45"
+                                                        viewBox="0 0 20 20"
+                                                        fill="currentColor"
+                                                    >
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                                                            clip-rule="evenodd"
+                                                        />
+                                                    </svg>
+                                                </span>
+                                            </summary>
+
+                                            <ul className='mt-4 leading-relaxed text-gray-700 list-disc text-xs list-inside '>
+                                                <li>Implementación de SASISOPA</li>
+                                                <li>Opinión Calificada de Ingeniería</li>
+                                                <li>Opinión Caificada de ARP</li>
+                                                <li>Informes Semestrales</li>
+                                                <li>Reportes Anuales</li>
+                                                <li>Auditorías Internas y Externas</li>
+                                                <li>Informes de Auditoría</li>
+                                                <li>Cumplimiento de Resuelves</li>
+                                            </ul>
+                                        </details>
+
+                                        <details
+                                            className="group border-l-4 border-red-500 bg-gray-50 p-3 [&_summary::-webkit-details-marker]:hidden"
+                                            open
+                                        >
+                                            <summary className="flex items-center justify-between cursor-pointer">
+                                                <h2 className="text-sm font-medium text-black">
+                                                Seguros y Garantias Financieras
+                                                </h2>
+
+                                                <span
+                                                    className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-red-500 sm:p-3"
+                                                >
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        class="flex-shrink-0 w-5 h-5 transition duration-300 group-open:-rotate-45"
+                                                        viewBox="0 0 20 20"
+                                                        fill="currentColor"
+                                                    >
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                                                            clip-rule="evenodd"
+                                                        />
+                                                    </svg>
+                                                </span>
+                                            </summary>
+
+                                            <ul className='mt-4 leading-relaxed text-gray-700 list-disc text-xs list-inside'>
+                                                <li>Registro de Pólizas</li>
+                                                <li>Renovación de Pólizas</li>
+                                                <li>Estudios de PML</li>
+                                            </ul>
+                                            
+                                        </details>
+
+                                        <details
+                                            className="group border-l-4 border-red-500 bg-gray-50 p-3 [&_summary::-webkit-details-marker]:hidden"
+                                            open
+                                        >
+                                            <summary className="flex items-center justify-between cursor-pointer">
+                                                <h2 className="text-sm font-medium text-black">
+                                                Protección Ambiental
+                                                </h2>
+
+                                                <span
+                                                    className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-red-500 sm:p-3"
+                                                >
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        class="flex-shrink-0 w-5 h-5 transition duration-300 group-open:-rotate-45"
+                                                        viewBox="0 0 20 20"
+                                                        fill="currentColor"
+                                                    >
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                                                            clip-rule="evenodd"
+                                                        />
+                                                    </svg>
+                                                </span>
+                                            </summary>
+
+                                            <ul className='mt-4 leading-relaxed text-gray-700 list-disc text-xs list-inside'>
+                                                <li>Línea Base Ambiental</li>
+                                                <li>Impacto Ambiental (MIA)</li>
+                                                <li>Modificaciones MIA</li>
+                                                <li>Informes Preventios</li>
+                                                <li>Estudios de Riesgo Ambiental</li>
+                                                <li>ETE</li>
+                                                <li>Avisos</li>
+                                                <li>Términos y Condicionantes</li>
+                                            </ul>
+                                        </details>
+
+                                        <details
+                                            className="group border-l-4 border-red-500 bg-gray-50 p-3 [&_summary::-webkit-details-marker]:hidden"
+                                            open
+                                        >
+                                            <summary className="flex items-center justify-between cursor-pointer">
+                                                <h2 className="text-sm font-medium text-black">
+                                                Residuos
+                                                </h2>
+
+                                                <span
+                                                    className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-red-500 sm:p-3"
+                                                >
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        class="flex-shrink-0 w-5 h-5 transition duration-300 group-open:-rotate-45"
+                                                        viewBox="0 0 20 20"
+                                                        fill="currentColor"
+                                                    >
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                                                            clip-rule="evenodd"
+                                                        />
+                                                    </svg>
+                                                </span>
+                                            </summary>
+
+                                            <ul className='mt-4 leading-relaxed text-gray-700 list-disc text-xs list-inside'>
+                                                <li>Registro de Generador de Residuos Peligrosos</li>
+                                                <li>Registro de Generador de Residuos de Manejo Especial</li>
+                                                <li>Planes de Manejo de Residuos</li>
+                                                <li>Modificación de autorizaciones</li>
+                                                <li>Informes</li>
+                                            </ul>
+                                        </details>
+
+                                    </div>
+
+                                </div>
+                                <footer className="mt-3">
+                                    <div className="flex items-center space-x-3">
+
+                                    </div>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div className="mt-12 sm:mt-16 lg:mt-0">
+                        <div className="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                            <img
+                                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                                alt="Inbox user interface"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div className="mt-24">
+                <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+                    <div className="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
+                        <div>
+                            
+                            <div className="mt-6">
+                                <h2 className="text-3xl font-bold tracking-tight text-[#DD102A]"> Gestiones ante la CNH:</h2>
+                                <div className="mt-4 border-t border-gray-200 pt-6">
+                            <blockquote>
+                                <div>
+                                    <div className="space-y-4">
+                                        <details
+                                            className="group border-l-4 border-red-500 bg-gray-50 p-3 [&_summary::-webkit-details-marker]:hidden"
+                                            open
+                                        >
+                                            <summary className="flex items-center justify-between cursor-pointer">
+                                                <h2 className="text-sm font-medium text-black">
+                                                Planes
+                                                </h2>
+
+                                                <span
+                                                    className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-red-500 sm:p-3"
+                                                >
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        class="flex-shrink-0 w-5 h-5 transition duration-300 group-open:-rotate-45"
+                                                        viewBox="0 0 20 20"
+                                                        fill="currentColor"
+                                                    >
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                                                            clip-rule="evenodd"
+                                                        />
+                                                    </svg>
+                                                </span>
+                                            </summary>
+
+                                            <ul className='mt-4 leading-relaxed text-gray-700 list-disc text-xs list-inside'>
+                                                <li>Planes de Exploración y Desarrollo</li>
+                                                <li>Programas de Evaluación</li>
+                                                <li>Modificaciones</li>
+                                                <li>Programa de Trabajo y Presupuesto</li>
+                                                <li>Reportes Trimestrales</li>
+                                                <li>Informes de Evaluación</li>
+                                                <li>Notificaciones</li>
+                                            </ul>
+                                        </details>
+
+                                        <details
+                                            className="group border-l-4 border-red-500 bg-gray-50 p-3 [&_summary::-webkit-details-marker]:hidden"
+                                            open
+                                        >
+                                            <summary className="flex items-center justify-between cursor-pointer">
+                                                <h2 className="text-sm font-medium text-black">
+                                                
+                                                Perforación de Pozos
+                                                </h2>
+
+                                                <span
+                                                    className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-red-500 sm:p-3"
+                                                >
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        class="flex-shrink-0 w-5 h-5 transition duration-300 group-open:-rotate-45"
+                                                        viewBox="0 0 20 20"
+                                                        fill="currentColor"
+                                                    >
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                                                            clip-rule="evenodd"
+                                                        />
+                                                    </svg>
+                                                </span>
+                                            </summary>
+
+                                            <ul className='mt-4 leading-relaxed text-gray-700 list-disc text-xs list-inside'>
+                                                <li>Autorizaciones</li>
+                                                <li>Modificaciones</li>
+                                                <li>Renovaciones</li>
+                                                <li>Informes de Resultados</li>
+                                                <li>Informe Anual</li>
+                                                <li>Avisos</li>
+                                                <li>Notificaciones</li>
+                                                
+                                            </ul>
+                                        </details>
+
+                                        <details
+                                            className="group border-l-4 border-red-500 bg-gray-50 p-3 [&_summary::-webkit-details-marker]:hidden"
+                                            open
+                                        >
+                                            <summary className="flex items-center justify-between cursor-pointer">
+                                                <h2 className="text-sm font-medium text-black">
+                                                CNIH
+                                                </h2>
+
+                                                <span
+                                                    className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-red-500 sm:p-3"
+                                                >
+                                                    <svg
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        class="flex-shrink-0 w-5 h-5 transition duration-300 group-open:-rotate-45"
+                                                        viewBox="0 0 20 20"
+                                                        fill="currentColor"
+                                                    >
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                                                            clip-rule="evenodd"
+                                                        />
+                                                    </svg>
+                                                </span>
+                                            </summary>
+
+                                            <ul className='mt-4 leading-relaxed text-gray-700 list-disc text-xs list-inside'>
+                                                <li>Licencia de Uso</li>
+                                                <li>Uso y Entreg de Información</li>
+                                                <li>Entrega de Información</li>
+                                                <li>Reportes Trimestrales</li>
+                                                <li>Resúmenes</li>
+                                            </ul> 
+                                            
+                                        </details>
+
+                                        
+                                    </div>
+
+                                </div>
+                                <footer className="mt-3">
+                                    <div className="flex items-center space-x-3">
+
+                                    </div>
+                                </footer>
+                            </blockquote>
+                        </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
+                        <div className="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                            <img
+                                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+                                alt="Customer profile user interface"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    )
 }
